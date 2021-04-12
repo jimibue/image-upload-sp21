@@ -8,4 +8,6 @@ Rails.application.routes.draw do
     get "uzers", to: "uzers#index"
     resources :memes
   end
+
+  get '*other', to: 'static#index'
 end
