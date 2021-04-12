@@ -23,7 +23,7 @@ gem 'puma', '~> 5.0'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-# gem 'rack-cors'
+gem 'rack-cors'
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 
 'master'
 
@@ -42,7 +42,7 @@ group :development do
   gem "better_errors"
   gem "binding_of_caller"
   gem 'pry-rails'
+  
 end
-
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
